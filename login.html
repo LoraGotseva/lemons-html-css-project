@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemons</title>
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="left-column">
+            <div class="title-container">
+                <h1>Welcome back!</h1>
+                <p>We're so excited to see you again!</p>
+            </div>
+            <form method="POST">
+                <label for="emailOrPhone">Email or phone number<span>*</span></label>
+                <input type="text" name="emailOrPhone" id="emailOrPhone">
+                <label for="password">Password<span>*</span></label>
+                <input type="password" name="password" id="password">
+                <a href="#">Forgot your password?</a>
+                <input type="submit" value="Log in">
+            </form>
+            <p>Need an account? <a href="#">Register</a></p>
+        </div>
+        <div class = "vertical-separator"></div>
+        <div class="right-column">
+            <img src ="assets/images/QR-code.png" height="160" style="border-radius: 5px" alt="QR code for scanning">
+            <h2>Log in with QR Code</h2>
+            <p>Scan this with <span class="bold"> your phone</span> for a surprise</p>
+        </div>
+    </div>
+</body>
+
+</html>
